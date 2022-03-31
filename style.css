@@ -344,3 +344,9 @@ main {
   display: grid;
   place-items: center;
 }
+
+@media screen and (max-width: 900px) {
+  .hero-container {
+    flex-direction: column;
+  }
+}
