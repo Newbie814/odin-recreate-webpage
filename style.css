@@ -302,12 +302,36 @@ ul li {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  color: #fff;
 }
 .action-left {
   margin-left: 120px;
+  line-height: 1.5;
 }
 .action-right {
   margin-right: 120px;
+}
+.btn-action-block {
+  background: #3882f6;
+  color: #f9faf8;
+  width: 118px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+/* =============================footer ==================== */
+
+footer {
+  height: 10vh;
+  background: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text {
+  color: #fff;
+  font-size: 12px;
 }
 /* ----------------------------end project styling ---------------------------- */
 @media screen and (min-width: 992px) {
