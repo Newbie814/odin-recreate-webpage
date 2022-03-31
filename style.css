@@ -217,7 +217,7 @@ ul li {
 }
 
 .about-section {
-  width: 70vw;
+  width: 60vw;
 
   margin: 52px auto;
   background-color: #fff;
@@ -241,7 +241,7 @@ ul li {
 }
 
 .small-img {
-  height: 150px;
+  height: 125px;
   border: 2px solid #3882f6;
   border-radius: 10px;
   margin-bottom: 12px;
@@ -250,6 +250,8 @@ ul li {
 .product-text {
   font-size: 15px;
 }
+
+/* =======================testimonial section ================== */
 
 .testimonial-container {
   height: 35vh;
@@ -272,7 +274,7 @@ ul li {
 }
 
 .test-auth {
-  width: 70vw;
+  width: 60vw;
   display: flex;
   justify-content: right;
 }
@@ -280,6 +282,32 @@ ul li {
 .author {
   margin-right: 84px;
   font-weight: 900;
+}
+
+/* ============================action section ================== */
+.action-call {
+  height: 35vh;
+  background: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-container {
+  display: flex;
+  height: 125px;
+  width: 75vw;
+  background: #3882f6;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.action-left {
+  margin-left: 120px;
+}
+.action-right {
+  margin-right: 120px;
 }
 /* ----------------------------end project styling ---------------------------- */
 @media screen and (min-width: 992px) {
